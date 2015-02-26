@@ -13,5 +13,10 @@ namespace MvcApplication33.Controllers
             return View();
         }
 
+        public ActionResult GetJson()
+        {
+            return Json(new {foo = "bar"}, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }
