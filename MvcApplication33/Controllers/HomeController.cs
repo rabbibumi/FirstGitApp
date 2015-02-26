@@ -24,5 +24,9 @@ namespace MvcApplication33.Controllers
             return Json(new {value = x});
         }
 
+        public void Write()
+        {
+            Response.Write("<h1>Hello World</h1>");
+        }
     }
 }
