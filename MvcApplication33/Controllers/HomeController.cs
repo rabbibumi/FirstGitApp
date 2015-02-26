@@ -26,7 +26,7 @@ namespace MvcApplication33.Controllers
 
         public void Write()
         {
-            Response.Write("<h1>Hello World</h1>");
+            Response.Write("<h1>Hello class!</h1>");
         }
     }
 }
