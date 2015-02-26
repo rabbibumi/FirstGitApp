@@ -20,7 +20,7 @@ namespace MvcApplication33.Controllers
 
         public ActionResult GetSomeStuff()
         {
-            int x = 10;
+            int x = 100;
             return Json(new {value = x});
         }
 
